@@ -50,7 +50,7 @@ def main():
    B = Button(top, text = "send", command = ButtonCallback)
    B.pack()
    #output
-   output = Label(top, textvariable=display, relief=RAISED)
+   output = Label(top, textvariable=display)
    output.pack(side = BOTTOM)
 
    top.mainloop()
